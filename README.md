@@ -2,6 +2,21 @@
 
 This project performs an **Exploratory Data Analysis (EDA)** on a heart disease dataset using data visualization techniques. The goal is to gain insights and understand the relationships between different features that might help in predicting heart disease.
 
+### Dataset Description
+
+- **Age**: Age of the patient.
+- **Sex**: Gender of the patient (male or female).
+- **Chest Pain Type**: The type of chest pain experienced by the patient (categorical).
+- **Resting Blood Pressure**: Resting blood pressure in mm Hg.
+- **Serum Cholestoral**: Serum cholesterol level in mg/dl.
+- **Fasting Blood Sugar**: Blood sugar levels measured after fasting (binary: 1 if > 120 mg/dl, 0 otherwise).
+- **Resting Electrocardiographic Results**: Result of electrocardiographic tests.
+- **Max Heart Rate Achieved**: The maximum heart rate achieved during exercise.
+- **Exercise Induced Angina**: Whether or not the patient experienced angina during exercise (binary).
+- **Oldpeak**: Depression induced by exercise relative to rest.
+- **Slope of Peak Exercise ST Segment**: Slope of the peak exercise ST segment (categorical).
+- **Heart Disease**: Whether the patient has heart disease (1 if yes, 0 if no).
+
 You can download the dataset here: [heart.csv](./heart.csv)
 
 ## Prerequisites
@@ -84,6 +99,10 @@ Using various data visualization techniques, we are able to:
 - Identify relationships between different variables using correlation heatmaps, pair plots, and joint plots.
 
 These insights can be valuable for healthcare professionals and researchers looking to understand the patterns in heart disease data and improve diagnosis or treatment plans.
+
+## Dataset
+
+The dataset used in this project is from the Kaggle repository: [Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). It contains data on heart disease patients, with several medical features that may contribute to predicting heart failure.
 
 # Contributing
 
