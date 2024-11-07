@@ -2,6 +2,8 @@
 
 This project performs an **Exploratory Data Analysis (EDA)** on a heart disease dataset using data visualization techniques. The goal is to gain insights and understand the relationships between different features that might help in predicting heart disease.
 
+You can download the dataset here: [heart.csv](./heart.csv)
+
 ## Prerequisites
 
 Before running this project, you need to have the following Python libraries installed:
@@ -82,3 +84,7 @@ Using various data visualization techniques, we are able to:
 - Identify relationships between different variables using correlation heatmaps, pair plots, and joint plots.
 
 These insights can be valuable for healthcare professionals and researchers looking to understand the patterns in heart disease data and improve diagnosis or treatment plans.
+
+# Contributing
+
+**Contributions are welcome! If you have ideas for enhancements or spot any issues, feel free to submit a pull request.**
