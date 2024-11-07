@@ -4,18 +4,30 @@ This project performs an **Exploratory Data Analysis (EDA)** on a heart disease 
 
 ### Dataset Description
 
-- **Age**: Age of the patient.
-- **Sex**: Gender of the patient (male or female).
-- **Chest Pain Type**: The type of chest pain experienced by the patient (categorical).
-- **Resting Blood Pressure**: Resting blood pressure in mm Hg.
-- **Serum Cholestoral**: Serum cholesterol level in mg/dl.
-- **Fasting Blood Sugar**: Blood sugar levels measured after fasting (binary: 1 if > 120 mg/dl, 0 otherwise).
-- **Resting Electrocardiographic Results**: Result of electrocardiographic tests.
-- **Max Heart Rate Achieved**: The maximum heart rate achieved during exercise.
-- **Exercise Induced Angina**: Whether or not the patient experienced angina during exercise (binary).
-- **Oldpeak**: Depression induced by exercise relative to rest.
-- **Slope of Peak Exercise ST Segment**: Slope of the peak exercise ST segment (categorical).
-- **Heart Disease**: Whether the patient has heart disease (1 if yes, 0 if no).
+- **Age**: Age of the patient (in years).
+- **Sex**: Gender of the patient (M: Male, F: Female).
+- **ChestPainType**: Chest pain type (TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic).
+- **RestingBP**: Resting blood pressure (in mm Hg).
+- **Cholesterol**: Serum cholesterol (in mg/dl).
+- **FastingBS**: Fasting blood sugar (1 if FastingBS > 120 mg/dl, 0 otherwise).
+- **RestingECG**: Resting electrocardiogram results (Normal: Normal, ST: having ST-T wave abnormality, LVH: showing probable or definite left ventricular hypertrophy).
+- **MaxHR**: Maximum heart rate achieved (Numeric value between 60 and 202).
+- **ExerciseAngina**: Exercise-induced angina (Y: Yes, N: No).
+- **Oldpeak**: Depression induced by exercise relative to rest (numeric value).
+- **ST_Slope**: The slope of the peak exercise ST segment (Up: upsloping, Flat: flat, Down: downsloping).
+- **HeartDisease**: Output class (1 if heart disease is present, 0 if normal).
+
+### Source
+
+This dataset was created by combining different heart disease datasets that were previously available independently. The five datasets used for its curation are:
+
+1. **Cleveland**: 303 observations
+2. **Hungarian**: 294 observations
+3. **Switzerland**: 123 observations
+4. **Long Beach VA**: 200 observations
+5. **Stalog (Heart) Data Set**: 270 observations
+
+In total, the dataset includes 1,190 observations, but after removing duplicates, the final dataset contains **918 observations**.
 
 You can download the dataset here: [heart.csv](./heart.csv)
 
